@@ -2,4 +2,6 @@ Customer Account
 Employee Account
 Manager Account
 Customer Bookings
-Product Catalogue
+Catalogue
+Attraction Type
+
