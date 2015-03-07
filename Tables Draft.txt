@@ -2,6 +2,7 @@ Customer Account
 Employee Account
 Manager Account
 Customer Bookings
+Tickets
 Catalogue
 Attraction Type
 Enquiries/Quotes
