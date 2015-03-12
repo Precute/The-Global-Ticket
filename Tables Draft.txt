@@ -1,11 +1,10 @@
 Customer Account - cust id, name, tel, address, postcode
-
 Customer Bookings - booking number, customer_id, booking date, booking total 
 Booking Item - customerid, booking number, attraction_id, quantity, total price, ticket type id
 
 Ticket Type - ticket_type id, tick type (child, adult, senior) 3nf
 Catalogue - attraction_id, name, description, attraction type id
-Price List - attraction id, ticket_type, ticket price
+Price List - attraction id, ticket_type id, ticket price
 Attraction Type - attraction_type id, attraction type 3nf
 
 
