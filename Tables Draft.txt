@@ -1,9 +1,9 @@
 Customer Account - cust id, name, tel, address, postcode
 Employee Account - emp no, emp name, emp role, manager id
 Customer Bookings - booking number, customer_id, booking date 
-Booking Item - customerid, booking number, attraction_id, quantity, ticket type id, date
+Booking Item - customerid, booking number, attraction_id, quantity, total price, ticket type id, date
 Ticket Type - ticket_type id, tick type (child, adult, senior) 3nf
-Catalogue - attraction_id, name, type, price, description, attraction type id
+Catalogue - attraction_id, name, price, description, attraction type id
 Attraction Type - attraction_type id, attraction type 3nf
 Enquiries/Quotes- enqiry no, description, notes, quote date, cust no 
 Login- login id, username, password, usertype, account id(emp/cust id)
