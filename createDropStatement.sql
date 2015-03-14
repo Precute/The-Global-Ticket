@@ -1,10 +1,10 @@
 -- Drop statements 
-DROP TABLE IF EXISTS customer_enquiry;
+DROP TABLE IF EXISTS customerEnquiry;
 DROP TABLE IF EXISTS attractionPriceList;
 DROP TABLE IF EXISTS ticketOnBooking;
-DROP TABLE IF EXISTS attraction_Catalogue;
-DROP TABLE IF EXISTS booking_Details;
-DROP TABLE IF EXISTS attraction_type;
+DROP TABLE IF EXISTS attractionCatalogue;
+DROP TABLE IF EXISTS bookingDetails;
+DROP TABLE IF EXISTS attractionType;
 DROP TABLE IF EXISTS customerAccount;
 DROP TABLE IF EXISTS ticketType;
 DROP TABLE IF EXISTS employeeAccount;
@@ -14,10 +14,10 @@ DROP TABLE IF EXISTS login;
 -- Create All tables
 
 -- create attraction_type 
-CREATE TABLE attraction_type
+CREATE TABLE attractionType
 (
-att_typeID INT (10) NOT NULL AUTO_INCREMENT,
-att_type VARCHAR  (50),
+attTypeID INT (10) NOT NULL AUTO_INCREMENT,
+attType VARCHAR  (50),
 PRIMARY KEY (att_typeID)
 );
 
@@ -78,7 +78,7 @@ PRIMARY KEY (locationID)
 
 
 -- create bookingDetails
-CREATE TABLE booking_Details
+CREATE TABLE bookingDetails
 (
 bookingID INT (10) NOT NULL AUTO_INCREMENT,
 bookingDate DATE,
@@ -86,26 +86,26 @@ bookingTotalCost DOUBLE (8,2) NOT NULL,
 customerID INT (10),
 PRIMARY KEY (bookingID, customerID)
 );
-ALTER TABLE booking_Details
+ALTER TABLE bookingDetails
 ADD CONSTRAINT fk_bookingDetails FOREIGN KEY (customerID)
 REFERENCES customerAccount(customerID);
 
 
 -- create attraction_Catalogue
-CREATE TABLE attraction_Catalogue
+CREATE TABLE attractionCatalogue
 (
 attractionID INT (10) NOT NULL AUTO_INCREMENT,
 attName VARCHAR (50) NOT NULL,
 attDescript VARCHAR (500) NOT NULL,
-att_TypeID INT (10),
+attTypeID INT (10),
 locationID INT (10),
 PRIMARY KEY (attractionID)
 );
-ALTER TABLE attraction_Catalogue
-ADD CONSTRAINT fk_attraction_Catalogue FOREIGN KEY (att_typeID)
-REFERENCES attraction_type(att_typeID);
+ALTER TABLE attractionCatalogue
+ADD CONSTRAINT fk_attraction_Catalogue FOREIGN KEY (atttypeID)
+REFERENCES attractiontype(attTypeID);
 
-ALTER TABLE attraction_Catalogue
+ALTER TABLE attractionCatalogue
 ADD CONSTRAINT fk_attraction_Catalogue_location FOREIGN KEY (locationID)
 REFERENCES location(locationID);
 
@@ -126,7 +126,7 @@ REFERENCES booking_details(bookingID);
 
 ALTER TABLE ticketOnBooking
 ADD CONSTRAINT fk_ticketOnBooking_attraction FOREIGN KEY (attractionID)
-REFERENCES attraction_Catalogue(attractionID);
+REFERENCES attractionCatalogue(attractionID);
 
 ALTER TABLE ticketOnBooking
 ADD CONSTRAINT fk_ticketOnBooking_Type FOREIGN KEY (tktTypeID)
@@ -137,19 +137,19 @@ CREATE TABLE attractionPriceList
 (
 attractionID INT (10) NOT NULL,
 tktTypeID INT (10) NOT NULL,
-ticket_Price DOUBLE (8,2) NOT NULL,
+ticketPrice DOUBLE (8,2) NOT NULL,
 PRIMARY KEY (tktTypeID, attractionID)
 );
 ALTER TABLE attractionPriceList
 ADD CONSTRAINT fk_attractionPriceList_attraction FOREIGN KEY (attractionID)
-REFERENCES attraction_Catalogue(attractionID);
+REFERENCES attractionCatalogue(attractionID);
 
 ALTER TABLE attractionPriceList
 ADD CONSTRAINT fk_attractionPriceList_Type FOREIGN KEY (tktTypeID)
 REFERENCES tickettype(tktTypeID);
 
 -- create customer_enquiry
-CREATE TABLE customer_enquiry
+CREATE TABLE customerEnquiry
 (
 enquiryID INT (10) NOT NULL,
 eqyDescription VARCHAR (500),
@@ -159,7 +159,7 @@ customerID INT (10),
 employeeID INT (10),
 PRIMARY KEY (enquiryID)
 );
-ALTER TABLE customer_enquiry
+ALTER TABLE customerEnquiry
 ADD CONSTRAINT fk_customer_enquiry_CUST FOREIGN KEY (customerID)
 REFERENCES customerAccount(customerID);
 ALTER TABLE customer_enquiry
