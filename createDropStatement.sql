@@ -57,7 +57,7 @@ empSurname VARCHAR (30) NOT NULL,
 empDOB DATE,
 empStartDate DATE,
 empRole VARCHAR (20),
-empSalary DOUBLE (8,2) NOT NULL,
+empSalary DECIMAL (8,2) NOT NULL,
 empEmail VARCHAR  (50) NOT NULL,
 empTel VARCHAR  (11),
 managerID INT (10),
@@ -82,7 +82,7 @@ CREATE TABLE global_bookingDetails
 (
 bookingID INT (10) NOT NULL AUTO_INCREMENT,
 bookingDate DATE,
-bookingTotalCost DOUBLE (8,2) NOT NULL,
+bookingTotalCost DECIMAL (8,2) NOT NULL,
 customerID INT (10),
 PRIMARY KEY (bookingID, customerID)
 );
@@ -117,7 +117,7 @@ attractionID INT (10) NOT NULL,
 tktTypeID INT (10),
 ticketDate DATE,
 ticketQty INT (10),
-tktTotalCost DOUBLE (8,2) NOT NULL,
+tktTotalCost DECIMAL (8,2) NOT NULL,
 PRIMARY KEY (bookingID, attractionID)
 );
 ALTER TABLE global_ticketOnBooking
@@ -137,7 +137,7 @@ CREATE TABLE global_attractionPriceList
 (
 attractionID INT (10) NOT NULL,
 tktTypeID INT (10) NOT NULL,
-ticketPrice DOUBLE (8,2) NOT NULL,
+ticketPrice DECIMAL (8,2) NOT NULL,
 PRIMARY KEY (tktTypeID, attractionID)
 );
 ALTER TABLE global_attractionPriceList
