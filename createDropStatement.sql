@@ -39,6 +39,7 @@ custMob VARCHAR (11),
 PRIMARY KEY (customerID)
 );
 
+
 -- create ticketType 
 CREATE TABLE global_ticketType 
 (
@@ -66,6 +67,7 @@ PRIMARY KEY (employeeID)
 ALTER TABLE global_employeeAccount
 ADD CONSTRAINT fk_global_employeeAccount FOREIGN KEY (managerID)
 REFERENCES global_employeeAccount(employeeID);
+
 
 -- create Location
 CREATE TABLE global_location 
