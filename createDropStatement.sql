@@ -134,6 +134,9 @@ ALTER TABLE global_ticketOnBooking
 ADD CONSTRAINT fk_global_ticketOnBooking_Type FOREIGN KEY (tktTypeID)
 REFERENCES global_tickettype(tktTypeID);
 
+ALTER TABLE global_ticketOnBooking
+ADD CONSTRAINT ch_global_ticketOnBooking_cost CHECK(tktTotalCost>0);
+
 -- create attractionPriceList
 CREATE TABLE global_attractionPriceList
 (
