@@ -52,7 +52,7 @@ PRIMARY KEY (tktTypeID)
 CREATE TABLE global_employeeAccount
 (
 employeeID INT (10) NOT NULL AUTO_INCREMENT,
-empFirtname VARCHAR (30) NOT NULL,
+empFirstname VARCHAR (30) NOT NULL,
 empOthername VARCHAR (30),
 empSurname VARCHAR (30) NOT NULL,
 empDOB DATE,
