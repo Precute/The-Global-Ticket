@@ -38,7 +38,7 @@ custTel VARCHAR (11),
 custMob VARCHAR (11),
 PRIMARY KEY (customerID)
 );
-
+ALTER TABLE global_customeraccount AUTO_INCREMENT = 20000;
 
 -- create ticketType 
 CREATE TABLE global_ticketType 
