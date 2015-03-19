@@ -20,5 +20,10 @@ INSERT INTO `global_attractiontype` (`attType`) VALUES ('Sightseeing');
 INSERT INTO `global_attractiontype` (`attType`) VALUES ('Theatre');
 INSERT INTO `global_attractiontype` (`attType`) VALUES ('Theme Park');
 
+INSERT INTO `arpalikh`.`global_employeeaccount` (`empFirtname`, `empSurname`, `empDOB`, `empStartDate`, `empRole`, `empSalary`, `empEmail`, `empTel`) 
+VALUES ('Precute', 'Karim', '1994-10-03', '2014-12-30', NULL, '16000', 'p.karim@yahoo.com', '0161600000');
+INSERT INTO `arpalikh`.`global_employeeaccount` (`empFirtname`, `empOthername`, `empSurname`, `empDOB`, `empStartDate`, `empSalary`, `empEmail`) 
+VALUES ('Grace', 'Helen', 'John', '1995-11-04-', '2001-01-10', '14300', 'g.john@globalticket.com');
 
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='Manager', `managerID`='1' WHERE `employeeID`='1';
 
