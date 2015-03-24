@@ -26,6 +26,7 @@ INSERT INTO `arpalikh`.`global_employeeaccount` (`empFirstname`, `empOthername`,
 
 
 INSERT INTO `arpalikh`.`global_attractioncatalogue` (`attName`, `attDescript`, `attAvailabilityCount`, `attTypeID`, `locationID`) VALUES ('Alton Towers', 'Exciting theme park in the North West of England!', '100000', '3', '12');
+UPDATE `arpalikh`.`global_attractioncatalogue` SET `attFullDescription`='Alton Towers Theme Park opened on 4 April 1980. Major attractions include Nemesis, Oblivion, Air, Runaway Mine Train, Congo River Rapids, Hex - The Legend of the Towers, TH13TEEN, and The Smiler. Alton Towers is known for creating new ride types when it comes to rollercoasters. They have a line of \'Secret Weapon\' rides which usually bring something new to the industry.\n<p>\nThe Alton Towers Waterpark opened in June 2003. It consists of several pools and slides including the Master Blaster water coaster. The waterpark, along with the adjoined Splash Landings Hotel, carries a tropical Caribbean theme with the \'Paradise Plumbers\' creating the slides.' WHERE `attractionID`='1';
 
 
 INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('1', '1', '25');
