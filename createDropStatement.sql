@@ -99,7 +99,7 @@ CREATE TABLE global_attractionCatalogue
 attractionID INT (10) NOT NULL AUTO_INCREMENT,
 attName VARCHAR (50) NOT NULL,
 attDescript VARCHAR (500) NOT NULL,
-attFullDescript VARCHAR (5000) NOT NULL,
+attFullDescription VARCHAR (5000) NOT NULL,
 attAvailabilityCount INT (20) NOT NULL,
 attTypeID INT (10),
 locationID INT (10),
