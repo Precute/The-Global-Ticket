@@ -31,3 +31,106 @@ They have a line of \'Secret Weapon\' rides which usually bring something new to
 
 INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('1', '1', '25');
 INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('1', '4', '45');
+
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('1', 'precute', 'precute', 'employee');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('2', 'grace', 'grace', 'employee');
+
+INSERT INTO global_employeeaccount VALUES 
+        ( 3
+        , 'Steven'
+        , NULL
+        , 'KING'
+        , STR_TO_DATE('17-JUN-1987', '%d-%b-%Y')
+        , STR_TO_DATE('17-OCT-2007', '%d-%b-%Y')
+        , 'marketer'
+        , 24000
+		, 'STEVEN@YAHOO.COM'
+        , 0734902948
+        , Null
+        );
+        
+INSERT INTO global_employeeaccount VALUES 
+        ( 4
+        , 'Neena'
+        , 'Kochhar'
+        , 'NKOCHHAR'
+        , STR_TO_DATE('17-JUN-1997', '%d-%b-%Y')
+        , STR_TO_DATE('18-OCT-2010', '%d-%b-%Y')
+        , 'marketer'
+        , 24000
+		, 'neena@global.co.uk'
+        , '5151234568'
+        , Null
+        );
+
+INSERT INTO global_employeeaccount VALUES 
+        ( 5
+        , 'Lex'
+        , 'De Haan'
+        , 'LDEHAAN'
+        , STR_TO_DATE('13-JAN-1993', '%d-%b-%Y')
+        , STR_TO_DATE('01-DEC-2008', '%d-%b-%Y')
+        , 'Sales Representative'
+        , 17000
+        ,'lex@global.com'
+        , '5151234569'
+        , NULL
+        );
+
+INSERT INTO global_employeeaccount VALUES 
+        ( 6
+        , 'Alexander'
+        , 'Hunold'
+        , 'AHUNOLD'
+        , STR_TO_DATE('03-JAN-1990', '%d-%b-%Y')
+        , STR_TO_DATE('13-MAY-2015', '%d-%b-%Y')
+        , 'IT_PROG'
+        , 9000
+        , 'alxander@global.co.uk'
+        , '5904234567'
+        , NULL
+        );
+
+INSERT INTO global_employeeaccount VALUES 
+        ( 104
+        , 'Bruce'
+        , 'Ernst'
+        , 'BERNST'
+        , STR_TO_DATE('21-AUG-1991', '%d-%b-%Y')
+        , STR_TO_DATE('13-FEB-2000', '%d-%b-%Y')
+        , 'HR_Manager'
+        , 67000
+		, 'bruce@global.com'
+		, '5904234568'
+        , 104
+        );
+
+INSERT INTO global_employeeaccount VALUES 
+        ( 7
+        , 'David'
+        , 'Austin'
+        , 'DAUSTIN'
+        , STR_TO_DATE('25-SEP-1997', '%d-%b-%Y')
+        , STR_TO_DATE('13-JAN-2005', '%d-%b-%Y')
+        , 'IT_PROG'
+        , 4800
+		, 'david@gmail.com'
+		, '5904234569'
+        , NULL
+        );
+        
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('3', 'steven', 'steven', 'employee');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('4', 'neena', 'neena', 'employee');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('5', 'lex', 'lex', 'employee');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('6', 'alexander', 'alexander', 'employee');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('104', 'bruce', 'bruce', 'employee');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`) 
+VALUES ('7', 'david', 'david');
+UPDATE `arpalikh`.`global_login` SET `loginUsertype`='employee' WHERE `loginID`='7';
+        
+        

@@ -158,7 +158,7 @@ REFERENCES global_ticketType(tktTypeID);
 -- create customer_enquiry
 CREATE TABLE global_customerEnquiry
 (
-enquiryID INT (10) NOT NULL,
+enquiryID INT (10) NOT NULL AUTO_INCREMENT,
 eqyDescription VARCHAR (500),
 eqyNote VARCHAR (500),
 eqyDate DATE,
