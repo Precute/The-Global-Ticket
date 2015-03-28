@@ -158,4 +158,12 @@ INSERT INTO global_login VALUES
 , 'helen'
 , 'helen'
 , 'customer'
-);    
+);   
+
+UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='King' WHERE `employeeID`='113';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Nkochhar' WHERE `employeeID`='114';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Ldehaan' WHERE `employeeID`='115';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Ahunold' WHERE `employeeID`='116';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Bernst' WHERE `employeeID`='117';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Daustin' WHERE `employeeID`='118';
+ 
