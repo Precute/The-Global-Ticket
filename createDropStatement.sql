@@ -64,9 +64,12 @@ empTel VARCHAR  (11),
 managerID INT (10),
 PRIMARY KEY (employeeID)
 );
+ALTER TABLE global_employeeaccount AUTO_INCREMENT = 111;
+
 ALTER TABLE global_employeeAccount
 ADD CONSTRAINT fk_global_employeeAccount FOREIGN KEY (managerID)
 REFERENCES global_employeeAccount(employeeID);
+
 
 
 -- create Location
