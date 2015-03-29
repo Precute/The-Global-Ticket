@@ -167,3 +167,446 @@ UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Ahunold' WHERE `emp
 UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Bernst' WHERE `employeeID`='117';
 UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Daustin' WHERE `employeeID`='118';
  
+ INSERT INTO global_customeraccount VALUES 
+        ( 20003
+        , 'Valli'
+        , 'Tabal'
+        , 'Pataballa'
+        ,  '1297 Via Cola di Rie'
+        , '00989'
+        , 'Roma'
+         , 'Italy'
+        , STR_TO_DATE('05-FEB-1998', '%d-%b-%Y')
+        , 'Valli@hottie.co.uk'
+        , NULL
+        , 003947410360
+        );
+       
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20004
+        , 'Diana'
+        , 'Lorentz'
+        , 'Rent'
+        , '93091 Calle della Testa'
+        ,'00989'
+        , 'Venice'
+        , 'Italy'
+        , STR_TO_DATE('07-FEB-1999', '%d-%b-%Y')
+        , 'diana@notmail.com'
+        , 420010360
+        , 5904235567
+        );
+         
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20005
+        , 'Nancy'
+            , 'Berg'
+        , 'Greenberg'
+         , '2017 Shinjuku-ku'
+          , '1689'
+          , 'Tokyo'
+            , 'Japan'
+        , STR_TO_DATE('17-AUG-1994', '%d-%b-%Y')
+        , 'berg@titi@go.jp'
+         , 515124569
+        , 12000101100
+        );
+
+        
+INSERT INTO global_customeraccount VALUES 
+        ( 20006
+        , 'Daniel'
+         , NULL
+        , 'Faviet'
+        , '9450 Kamiya-cho'
+         , '6823'
+        , 'Hiroshima'
+        , 'Japan'
+        , STR_TO_DATE('16-AUG-1994', '%d-%b-%Y')
+        , 'daniel@japan.jp'
+        , NULL
+        , 515.124.4169
+        );
+        
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20007
+        , 'John'
+         , NULL
+        , 'Chen'
+         , '2014 Jabberwocky Rd'
+        , '26192'
+        , 'Southlake, Texas'
+        , 'US'
+        , STR_TO_DATE('28-SEP-1997', '%d-%b-%Y')
+        , 'john@loviee@my.us'
+        , NULL
+        , NULL
+        );
+       
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20008
+        , 'Ismael'
+        , 'Arra'
+        , 'Sciarra'
+       , '2011 Interiors Blvd'
+        , '99236'
+        , 'South San Francisco, California'
+        , 'US'
+        , STR_TO_DATE('30-SEP-1997', '%d-%b-%Y')
+        , 'arra@hottie.com'
+        , NULL
+         , 5151244369
+      
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20009
+        , 'Jose Manuel'
+        , NULL
+        , 'Urman'
+         , '2007 Zagora St'
+        , '50090'
+        , 'South Brunswick, New Jersey'
+        , 'US'
+        , STR_TO_DATE('07-MAR-1998', '%d-%b-%Y')
+        , 'jose@us.com'
+        , NULL
+        , 10818984000
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20010
+        , 'Luis'
+        , NULL
+        , 'Popp'
+        , '2004 Charade Rd'
+        , '98199'
+        , 'Seattle, Washington'
+        , 'US'
+        , STR_TO_DATE('07-DEC-1999', '%d-%b-%Y')
+        , 'lusi@jesus.com'
+        , 6900108100
+        , NULL
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20012
+        , 'Den'
+         , NULL
+        , 'Raphaely'
+, '6092 Boxwood St'
+        , 'YSW 9T2'
+        , 'Whitehorse, Yukon'
+        , 'California'
+        , STR_TO_DATE('07-DEC-1994', '%d-%b-%Y')
+        , 'dan@da.com'
+        , NULL
+         , NULL
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20013
+        , 'Alexander'
+         , NULL
+        , 'Khoo'
+        , '147 Spadina Ave'
+        , 'M5V 2L7'
+        , 'Toronto, Ontario'
+        , 'California'
+      
+        , STR_TO_DATE('18-MAY-1995', '%d-%b-%Y')
+        , 'alex@alwx.com'
+         , NULL
+        , NULL
+        
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20014
+        , 'Shelli'
+         , NULL
+        , 'Baida'
+        , '40-5-12 Laogianggen'
+        , '190518'
+        , 'Beijing'
+        , 'China'
+        , STR_TO_DATE('24-DEC-1997', '%d-%b-%Y')
+        , 'china@chain.china'
+         , NULL
+        , 290011430
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20015
+        , 'Sigal'
+         , 'Tob'
+        , 'Tobias'
+        , '1298 Vileparle (E)'
+        , '490231'
+        , 'Bombay, Maharashtra'
+        , 'IN'
+        , STR_TO_DATE('24-JUL-1997', '%d-%b-%Y')
+        , 'tob@tpb.com'
+       , 5151274564
+        , NULL
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20016
+        , 'Guy'
+         , NULL
+        , 'Himuro'
+    , '12-98 Victoria Street'
+        , '2901'
+        , 'Sydney'
+        , 'Australia'
+        , STR_TO_DATE('15-NOV-1998', '%d-%b-%Y')
+        , 'guy@gut.com'
+        , NULL
+         , NULL
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20017
+        , 'Karen'
+          , 'Kcol'
+        , 'Colmenares'
+      , '198 Clementi North'
+        , '540198'
+        , 'Singapore'
+       , 'Singapore'
+       
+        , STR_TO_DATE('10-AUG-1999', '%d-%b-%Y')
+        , 'kcol@kcol.com'
+        , NULL
+         , NULL
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20018
+        , 'Matthew'
+         , NULL
+        , 'Weiss'
+          , '8204 Arthur St'
+        , 'SW1 2BGF'
+        , 'London'
+        , 'UK'
+        , STR_TO_DATE('18-JUL-1996', '%d-%b-%Y')
+        , 'matt.brand.uk'
+        , NULL
+         , NULL
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20019
+        , 'Adam'
+         , NULL
+        , 'Fripp'
+        , 'Magdalen Centre, The Oxford Science Park'
+        , 'OX9 9ZB'
+        , 'Oxford'
+        , 'UK'
+        , STR_TO_DATE('10-APR-1997', '%d-%b-%Y')
+        , 'adam.devine@glo.uk'
+        , NULL
+         , NULL
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20020
+        , 'Payam'
+        , NULL
+        , 'Kaufling'
+        , '9702 Chester Road'
+       ,'ME2 3HF'
+        , 'Manchester'
+        , 'UK'
+        , STR_TO_DATE('01-MAY-1995', '%d-%b-%Y')
+        , 'payam@manny.com'
+        , NULL
+         , '09629850293'
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20021
+        , 'Shanta'
+         , NULL
+        , 'Vollman'
+       , 'Rua Frei Caneca 1360 '
+        , '307002'
+        , 'Sao Paulo'
+        , 'Brazil'
+        , STR_TO_DATE('10-OCT-1997', '%d-%b-%Y')
+        , 'stanta@gmail.com'
+        , 650010050
+         , NULL
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20022
+        , 'Kevin'
+        , NULL
+        , 'Mourgos'
+        , 'Schwanthalerstr. 7031'
+        , '80925'
+        , 'Munich, Bavaria'
+        , 'Denmark'
+        , STR_TO_DATE('16-NOV-1999', '%d-%b-%Y')
+        , 'kevin@dn.com'
+        , NULL
+        , NULL
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20023
+        , 'Julia'
+        ,'NJ'
+        , 'Nayer'
+        , 'Bavaria . 3981'
+        , '80925'
+        , 'Munich, Bavaria'
+        , 'Denmark'
+        , STR_TO_DATE('16-JUL-1997', '%d-%b-%Y')
+        , 'JU@JU.COM'
+         , NULL
+          , 6501241214
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20024
+        , 'Irene'
+        , NULL 
+        , 'Mikkilineni'
+              , '198 jessie North'
+        , '540198'
+        , 'Singapore'
+       , 'Singapore'
+        , STR_TO_DATE('28-SEP-1998', '%d-%b-%Y')
+        , 'lineni@ku.sg'
+        , 6501241224
+        , NULL
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20025
+        , 'James'
+        , NULL
+        , 'Landry'
+      , 'Pieter Stressess 837'
+        , '3029SK'
+        , 'Berlin'
+        , 'Germany'
+        
+        , STR_TO_DATE('14-JAN-1999', '%d-%b-%Y')
+        , 'wien@austria.gy'
+         , NULL
+        , 6501241334
+        
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20026
+        , 'Steven'
+        , NULL
+        , 'Markle'
+  , 'Pieter Breughelstraat 8447'
+        , '3029SK'
+        , 'Utrecht'
+        , 'Netherland'
+        , STR_TO_DATE('08-MAR-2000', '%d-%b-%Y')
+        , 'steve.steve@mn@nl'
+        , 6501241434
+         , NULL
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20027
+        , 'Laura'
+        , NULL
+        , 'Bissot'
+        , 'Murtenstrasse 921'
+        , '3095'
+        , 'Bern'
+        , 'China'
+        , STR_TO_DATE('20-AUG-1997', '%d-%b-%Y')
+        , 'ST_lQk.com'
+        , NULL
+        , 6501245234
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20028
+        , 'Mozhe'
+        , 'Ak'
+        , 'Atkinson'
+          , 'Pieter Breughelstraat 837'
+        , '3029SK'
+        , 'Utrecht'
+        , 'Netherland'
+        , STR_TO_DATE('30-OCT-1997', '%d-%b-%Y')
+        , 'CLERK@ak.com'
+        , 6501246234
+        , 6501246234
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20029
+        , 'James'
+        , NULL
+        , 'Marlow'
+        , 'Mariano Escobedo 9991'
+        , '11932'
+        , 'Distrito Federal,'
+        , 'Mexico'
+        , STR_TO_DATE('16-FEB-1997', '%d-%b-%Y')
+        , 'ST_CLE@go.com'
+        , NULL
+         , 6501247234
+        );
+
+INSERT INTO global_customeraccount VALUES 
+        ( 20030,
+        'Jolson' ,
+        NULL
+        , 'Olson'
+        , '20 Rue des Corps-Saints'
+        , '1730'
+        , 'Geneva'
+        , 'China'
+        , STR_TO_DATE('10-APR-1999', '%d-%b-%Y')
+        , 'tjt@sons.com'
+        , 650124823
+        , NULL
+        );
+        
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20003', 'valli', 'valli', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20004', 'diana', 'diana', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20005', 'nancy', 'nancy', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20006', 'daniel', 'daniel', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20007', 'john', 'john', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20008', 'ismael', 'ismael', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20009', 'jose', 'jose', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20010', 'luis', 'luis', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20012', 'dan', 'dan', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20013', 'alex', 'alex', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20014', 'shelli', 'shelli', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20015', 'sigal', 'sigal', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20016', 'guy', 'guy', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20017', 'karen', 'karen', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20018', 'matt', 'matt', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20019', 'adam', 'adam', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20020', 'payam', 'payam', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20021', 'shanta', 'shanta', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20022', 'kevin', 'kevin', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20023', 'julia', 'julia', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20024', 'irene', 'irene', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20025', 'james', 'james', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20026', 'steven', 'steven', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20027', 'laura', 'laura', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20028', 'mozha', 'mozha', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20029', 'james', 'james', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20030', 'jolson', 'jolson', 'customer');
