@@ -638,21 +638,149 @@ VALUES ('20029', 'james', 'james', 'customer');
 INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
 VALUES ('20030', 'jolson', 'jolson', 'customer');
 
-INSERT INTO global_attractioncatalogue
-			( 2
-			,'Eiffel Tower'
-			,'" A vision, an object, a symbol, the Tower is anything that Man wants it to be, and this is infinite. A sight that is looked at and which looks back, a structure that is useless and yet irreplaceable, a familiar world and a heroic symbol, the witness to a century passing by and a monument that is always new, an inimitable and yet incessantly imitated object." (Translation of Roland Barthes, La tour Eiffel, Ed. Delpirre 1964). The tower was the tallest tower in the world at the time of its construction and has been imitated in various places around the world. Overtaken in height by today’s great towers, it nevertheless remains unique.'
+INSERT INTO global_attractioncatalogue VALUES ( 2,'Eiffel Tower'
+			,' The tower was the tallest tower in the world at the time of its construction and has been imitated in various places around the world. Overtaken in height by todays great towers, it nevertheless remains unique.'
 			,'The Eiffel Tower was built by Gustave Eiffel for the 1889 Exposition Universelle, which was to celebrate the 100th year anniversary of the French Revolution. Its construction in 2 years, 2 months and 5 days was a veritable technical and architectural achievement. "Utopia achieved", a symbol of technological prowess, at the end of the 19th Century it was a demonstration of French engineering personified by Gustave Eiffel, and a defining moment of the industrial era. It was met immediately with tremendous success. Only intended to last 20 years, it was saved by the scientific experiments that Eiffel encouraged, and in particular by the first radio transmissions, followed by telecommunications. For example, the radio signals from the Pantheon Tower in 1898; it served as a military radio post in 1903; it transmitted the first public radio programme in 1925, and then broadcast television up to TNT more recently. Whether it’s by metro or boat, by car or by bike there’s no shortage of ways of getting to the Eiffel Tower! You can either choose to come directly to the Tower or, why not, take in a stroll along the streets of Paris or on the Seine, on your way. '							
 			, 2000000
 			, 1
 			, 8
 			);
-INSERT INTO global_attractioncatalogue
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('2', '1', '25');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('2', '2', '50');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('2', '3', '70');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('2', '4', '80');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('2', '5', '55');
+INSERT INTO global_attractioncatalogue VALUES
 			( 3
 			,'The Statue of Liberty'
-			,'No visit to the New York City area is complete without a trip the world’s most famous landmarks – the Statue of Liberty and Ellis Island. Statue Cruises offers departures throughout the day from both New York and New Jersey for the convenience of out-of-town visitors and local residents alike. Get your Statue of Liberty tickets here at the guaranteed lowest price. Visiting the Statue of Liberty National Monument and limited access of Ellis Island featuring the Wall of Honor is a memorable experience for people from all over the world.'
-			,'"The Statue of Liberty Enlightening the World" was a gift of friendship from the people of France to the United States and is recognized as a universal symbol of freedom and democracy. The Statue of Liberty was dedicated on October 28, 1886.  It was designated as a National Monument in 1924.  Employees of the National Park Service have been caring for the colossal copper statue since 1933.'
+			,'No visit to the New York City area is complete without a trip the worlds most famous landmarks – the Statue of Liberty and Ellis Island. Get your Statue of Liberty tickets here at the guaranteed lowest price. Visiting the Statue of Liberty National Monument and limited access of Ellis Island featuring the Wall of Honor is a memorable experience for people from all over the world.'
+			,'The Statue of Liberty Enlightening the World was a gift of friendship from the people of France to the United States and is recognized as a universal symbol of freedom and democracy. It was designated as a National Monument in 1924.  Employees of the National Park Service have been caring for the colossal copper statue since 1933.'
 			,10000
-			,2
+			,3
 			,6
 			);
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('3', '1', '10');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('3', '2', '50');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('3', '3', '65');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('3', '4', '70');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('3', '5', '60');
+
+INSERT INTO global_attractioncatalogue VALUES 
+	( 4
+	,'The Peoples Theatre'
+	,'What is it that people love about theatre trips to London? The friendly chaos of the foyer. The buzz in the bar beforehand. The orchestra of excited voices inside. The silence that falls when the curtain rises and suddenly... the real world gives way to a more enchanting place.'
+	, 'We want you to get the most out of your theatre trips to London, so we make sure we do as much research as possible. We can also describe what you’ll be seeing before you’re even there. That’s because it is our business (and our pleasure) to go and check out the views from all the different parts of the theatre'
+	,20000
+	,2
+	,1
+	):
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('4', '1', '78');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('4', '3', '150');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('4', '4', '185');
+
+
+INSERT INTO global_attractioncatalogue VALUES 
+	( 5
+	,'Sidorme Mollet'
+	,'Travel Enjoy a good night’s sleep after a busy day in the hotel’s well-designed rooms. Each one comes with modern facilities such as work desks, flat-screen TVs and free Wi-Fi, as well as free coffee 24 hours a day.'
+	,'The city’s main Sants station can easily be reached from either of Mollet’s 2 train stations, just a 10-minute walk from the hotel. The property is also a good location for those visiting the many major companies based in the area. Decathlon Shopping Centre is next to the hotel.'
+	,30000
+	,1
+	,3
+	);
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('5', '1', '199');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('5', '4', '279');
+
+INSERT INTO global_attractioncatalogue VALUES 
+	( 6
+	,'Amara Island '
+	,'Directly on private golden-sand beach; 3km to Guvercinlik centre; 26km to Bodrum.'
+	,'On its own peninsula, the Amara Island Bodrum Elite is situated in one of the more tranquil areas of Guvercinlik with stunning views. This hotel is perfect for both couples and families looking for a variety of activities that will keep everyone entertained. From an on-site waterpark to spa facilities!'
+	,30000
+	,3
+	,4
+	);
+	INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('6', '1', '500');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('6', '4', '800');
+
+
+INSERT INTO global_attractioncatalogue VALUES 
+	( 7
+	,'Asmali'
+	,'This mid century Turkish mansion has become a hotel in the year 2007 keeping the old style & atmosphere of the Mansion and the result is a highly comfortable modern hotel full of history.'
+	,'The property is located in the historical peninsula of Sultanhamet, where the mayor tourist attractions are located as the Blue Mosque or St Sophia Mosque as well as the Grand Bazar or the Spice market.The hotel has its own restaurant in the terrace.'
+	,30000
+	,3
+	,11
+	);
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('7', '1', '359');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('7', '4', '419');
+
+INSERT INTO global_attractioncatalogue VALUES 
+	( 8
+	,'Y Hyde Park'
+	,'Whether travelling alone, with a friend or family, we have a variety of rooms to choose from, all packed with essential comforts..'
+	,'Joining Oxford Street and Hyde Park, the hotel is walking distance from Sydneys major attractions including The Rocks, Opera House, Chinatown and Darling Harbour. Surrounded by shops, cafes, restaurants, bars, galleries and gardens, you’ll never be short of something to do during your stay.'
+	,30000
+	,3
+	,5
+	);
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('8', '1', '960');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('8', '4', '1345');
+
+INSERT INTO global_attractioncatalogue VALUES 
+	( 9
+	,'Djerba Island'
+	,'Tunisia offers a great introduction to North Africa.'
+	,'All over the country, medinas, souks and mosques freckle the towns and villages, while ancient cities give way to salt lakes and citrus groves. And down in the south, the mysterious Berber tribes dwell in the caves that edge the Sahara Desert.'
+	,30000
+	,3
+	,7
+	);
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('9', '1', '329');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('9', '4', '578');
+
+
+INSERT INTO global_attractioncatalogue VALUES 
+	( 10
+	,'Montemar '
+	,'Portugal is blessed with some of Europe’s best beaches, along with a climate to die for. Summers are hot and sunny, while winters are gloriously mild.'
+	,'Portugal is one of Europe’s most popular golfing destinations. The Algarve alone is home to some 42 courses, some of which are ranked among the best in the world. And thanks to the stunning weather, you can enjoy a game year-round.'
+	,30000
+	,1
+	,9
+	);
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('10', '1', '111');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('10', '4', '732');
+
+
+INSERT INTO global_attractioncatalogue VALUES 
+	( 11
+	,'Canaria Princess Canary Islands'
+	,'The Princess Canary is located right in the centre of Playa del Inglés in the south of the island.'
+	,'The adult exclusive SENTIDO Gran Canaria Princess is the perfect place for an escape. Totally refurbished in 2013, its been transformed into a modern, designer-fitted delight. Enjoy a pampering treat in the tranquil Wellness area, relax on a Balinese bed by the pool, or take advantage of the location and stroll the ten minute walk to the beach.'
+	,30000
+	,1
+	,10
+	);
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('11', '4', '832');
+
+
+INSERT INTO global_attractioncatalogue VALUES 
+	( 12
+	,'Manchy Theatre'
+	,'From events and attractions to fine dining and a great night out; discover all things to do in Manchester.'
+	,'Manchester has a thriving theatre, opera and dance scene, and is home to a number of large performance venues, including the Manchester Opera House, which feature large-scale touring shows and West End productions; the Palace Theatre; and the Royal Exchange Theatre in Manchesters former cotton exchange. The Royal Exchange is the largest theatre in the round space in the UK. Smaller performance spaces include the Library Theatre, a producing theatre in the basement of the Central Library; the Contact Theatre; and Studio Salford. The Dancehouse is dedicated to dance productions. The Library Theatre closed in 2010, and will reopen in 2014 as HOME, a new custom built arts complex it will share with Cornerhouse'
+	,30000
+	,2
+	,2
+	);
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('12', '1', '45');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('12', '2', '60');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('12', '3', '60');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('12', '4', '100');
+INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('12', '5', '75');
+
+	
+	
+	
