@@ -583,30 +583,76 @@ INSERT INTO global_customeraccount VALUES
         , NULL
         );
         
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20003', 'valli', 'valli', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20004', 'diana', 'diana', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20005', 'nancy', 'nancy', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20006', 'daniel', 'daniel', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20007', 'john', 'john', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20008', 'ismael', 'ismael', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20009', 'jose', 'jose', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20010', 'luis', 'luis', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20012', 'dan', 'dan', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20013', 'alex', 'alex', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20014', 'shelli', 'shelli', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20015', 'sigal', 'sigal', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20016', 'guy', 'guy', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20017', 'karen', 'karen', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20018', 'matt', 'matt', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20019', 'adam', 'adam', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20020', 'payam', 'payam', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20021', 'shanta', 'shanta', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20022', 'kevin', 'kevin', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20023', 'julia', 'julia', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20024', 'irene', 'irene', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20025', 'james', 'james', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20026', 'steven', 'steven', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20027', 'laura', 'laura', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20028', 'mozha', 'mozha', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20029', 'james', 'james', 'customer');
-INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20030', 'jolson', 'jolson', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20003', 'valli', 'valli', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`)
+ VALUES ('20004', 'diana', 'diana', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20005', 'nancy', 'nancy', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`)
+VALUES ('20006', 'daniel', 'daniel', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20007', 'john', 'john', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20008', 'ismael', 'ismael', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20009', 'jose', 'jose', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20010', 'luis', 'luis', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20012', 'dan', 'dan', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20013', 'alex', 'alex', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20014', 'shelli', 'shelli', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20015', 'sigal', 'sigal', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20016', 'guy', 'guy', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20017', 'karen', 'karen', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20018', 'matt', 'matt', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20019', 'adam', 'adam', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20020', 'payam', 'payam', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20021', 'shanta', 'shanta', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20022', 'kevin', 'kevin', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20023', 'julia', 'julia', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20024', 'irene', 'irene', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20025', 'james', 'james', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20026', 'steven', 'steven', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20027', 'laura', 'laura', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20028', 'mozha', 'mozha', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20029', 'james', 'james', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
+VALUES ('20030', 'jolson', 'jolson', 'customer');
+
+INSERT INTO global_attractioncatalogue
+			( 2
+			,'Eiffel Tower'
+			,'" A vision, an object, a symbol, the Tower is anything that Man wants it to be, and this is infinite. A sight that is looked at and which looks back, a structure that is useless and yet irreplaceable, a familiar world and a heroic symbol, the witness to a century passing by and a monument that is always new, an inimitable and yet incessantly imitated object." (Translation of Roland Barthes, La tour Eiffel, Ed. Delpirre 1964). The tower was the tallest tower in the world at the time of its construction and has been imitated in various places around the world. Overtaken in height by today’s great towers, it nevertheless remains unique.'
+			,'The Eiffel Tower was built by Gustave Eiffel for the 1889 Exposition Universelle, which was to celebrate the 100th year anniversary of the French Revolution. Its construction in 2 years, 2 months and 5 days was a veritable technical and architectural achievement. "Utopia achieved", a symbol of technological prowess, at the end of the 19th Century it was a demonstration of French engineering personified by Gustave Eiffel, and a defining moment of the industrial era. It was met immediately with tremendous success. Only intended to last 20 years, it was saved by the scientific experiments that Eiffel encouraged, and in particular by the first radio transmissions, followed by telecommunications. For example, the radio signals from the Pantheon Tower in 1898; it served as a military radio post in 1903; it transmitted the first public radio programme in 1925, and then broadcast television up to TNT more recently. Whether it’s by metro or boat, by car or by bike there’s no shortage of ways of getting to the Eiffel Tower! You can either choose to come directly to the Tower or, why not, take in a stroll along the streets of Paris or on the Seine, on your way. '							
+			, 2000000
+			, 1
+			, 8
+			);
+INSERT INTO global_attractioncatalogue
+			( 3
+			,'The Statue of Liberty'
+			,'No visit to the New York City area is complete without a trip the world’s most famous landmarks – the Statue of Liberty and Ellis Island. Statue Cruises offers departures throughout the day from both New York and New Jersey for the convenience of out-of-town visitors and local residents alike. Get your Statue of Liberty tickets here at the guaranteed lowest price. Visiting the Statue of Liberty National Monument and limited access of Ellis Island featuring the Wall of Honor is a memorable experience for people from all over the world.'
+			,'"The Statue of Liberty Enlightening the World" was a gift of friendship from the people of France to the United States and is recognized as a universal symbol of freedom and democracy. The Statue of Liberty was dedicated on October 28, 1886.  It was designated as a National Monument in 1924.  Employees of the National Park Service have been caring for the colossal copper statue since 1933.'
+			,10000
+			,2
+			,6
+			);
