@@ -166,7 +166,6 @@ UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Ldehaan' WHERE `emp
 UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Ahunold' WHERE `employeeID`='116';
 UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Bernst' WHERE `employeeID`='117';
 UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Daustin' WHERE `employeeID`='118';
-
 UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='CEO', `managerID`=NULL WHERE `employeeID`='111';
 UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='Payroll Admin ', `managerID`='117' WHERE `employeeID`='120';
 UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='Marketer', `managerID`='112' WHERE `employeeID`='113';
@@ -598,7 +597,6 @@ INSERT INTO global_customeraccount VALUES
         , NULL
         );
         
-<<<<<<< HEAD
 INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20003', 'valli', 'valli', 'customer');
 INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20004', 'diana', 'diana', 'customer');
 INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20005', 'nancy', 'nancy', 'customer');
@@ -629,7 +627,7 @@ INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPasswor
 
 
 UPDATE `arpalikh`.`global_login` SET `loginUsertype`='admin' WHERE `loginID`='111';
-=======
+
 INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
 VALUES ('20003', 'valli', 'valli', 'customer');
 INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`)
@@ -830,5 +828,4 @@ INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`
 
 	
 	
-	
->>>>>>> origin/master
+
