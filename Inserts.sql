@@ -166,8 +166,23 @@ UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Ldehaan' WHERE `emp
 UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Ahunold' WHERE `employeeID`='116';
 UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Bernst' WHERE `employeeID`='117';
 UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Daustin' WHERE `employeeID`='118';
- 
- INSERT INTO global_customeraccount VALUES 
+
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='CEO', `managerID`=NULL WHERE `employeeID`='111';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='Payroll Admin ', `managerID`='117' WHERE `employeeID`='120';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='Marketer', `managerID`='112' WHERE `employeeID`='113';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='Marketer', `managerID`='112' WHERE `employeeID`='114';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='IT Programmer', `managerID`='127' WHERE `employeeID`='116';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='IT Programmer', `managerID`='127' WHERE `employeeID`='118';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='HR Manager', `managerID`='111' WHERE `employeeID`='117';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='PR Manager', `managerID`='111' WHERE `employeeID`='112';
+UPDATE `arpalikh`.`global_employeeaccount` SET `managerID`='123' WHERE `employeeID`='115';
+UPDATE `arpalikh`.`global_employeeaccount` SET `managerID`='111' WHERE `employeeID`='127';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='Sales Manager', `managerID`='111' WHERE `employeeID`='123';
+UPDATE `arpalikh`.`global_employeeaccount` SET `managerID`='123' WHERE `employeeID`='128';
+UPDATE `arpalikh`.`global_employeeaccount` SET `managerID`='111' WHERE `employeeID`='111';
+
+
+INSERT INTO global_customeraccount VALUES 
         ( 20003
         , 'Valli'
         , 'Tabal'
@@ -610,3 +625,6 @@ INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPasswor
 INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20028', 'mozha', 'mozha', 'customer');
 INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20029', 'james', 'james', 'customer');
 INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20030', 'jolson', 'jolson', 'customer');
+
+
+UPDATE `arpalikh`.`global_login` SET `loginUsertype`='admin' WHERE `loginID`='111';
