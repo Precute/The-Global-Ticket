@@ -10,7 +10,15 @@ DROP TABLE IF EXISTS global_ticketType;
 DROP TABLE IF EXISTS global_employeeAccount;
 DROP TABLE IF EXISTS global_location;
 DROP TABLE IF EXISTS global_login;
-
+ 
+ 
+ ALTER TABLE `arpalikh`.`global_ticketonbooking` 
+CHANGE COLUMN `tktTypeID` `tktTypeID` INT(10) NOT NULL ,
+DROP PRIMARY KEY,
+ADD PRIMARY KEY (`bookingID`, `attractionID`, `tktTypeID`);
+	
+	
+	
 -- Create All tables
 
 -- create attraction_type 
@@ -87,13 +95,14 @@ CREATE TABLE global_bookingDetails
 (
 bookingID INT (10) NOT NULL AUTO_INCREMENT,
 bookingDate DATE,
-bookingTotalCost DECIMAL (8,2) NOT NULL,
+bookingTotalCost DECIMAL (8,2),
 customerID INT (10),
 PRIMARY KEY (bookingID, customerID)
 );
 ALTER TABLE global_bookingDetails
 ADD CONSTRAINT fk_global_bookingDetails FOREIGN KEY (customerID)
 REFERENCES global_customerAccount(customerID);
+ALTER TABLE global_bookingDetails AUTO_INCREMENT = 781;
 
 
 -- create attraction_Catalogue
