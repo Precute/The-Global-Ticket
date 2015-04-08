@@ -826,7 +826,6 @@ INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`
 INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('12', '4', '100');
 INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('12', '5', '75');
 
-<<<<<<< HEAD
 INSERT INTO `arpalikh`.`global_bookingdetails` (`bookingDate`, `customerID`) VALUES ('2015-04-06', '20001');
 INSERT INTO `arpalikh`.`global_bookingdetails` (`bookingDate`, `customerID`) VALUES ('2014-07-28', '20014');
 INSERT INTO `arpalikh`.`global_bookingdetails` (`bookingDate`, `customerID`) VALUES ('2010-12-30', '20022');
@@ -869,10 +868,4 @@ INSERT INTO `arpalikh`.`global_ticketonbooking` (`bookingID`, `attractionID`, `t
 INSERT INTO `arpalikh`.`global_ticketonbooking` (`bookingID`, `attractionID`, `tktTypeID`, `ticketDate`, `ticketQty`, `tktTotalCost`) VALUES ('839', '6', '1', '2012-03-10', '1', '500');
 INSERT INTO `arpalikh`.`global_ticketonbooking` (`bookingID`, `attractionID`, `tktTypeID`, `ticketDate`, `ticketQty`, `tktTotalCost`) VALUES ('840', '6', '4', '2011-12-17', '10', '8000');
 INSERT INTO `arpalikh`.`global_ticketonbooking` (`bookingID`, `attractionID`, `tktTypeID`, `ticketDate`, `ticketQty`, `tktTotalCost`) VALUES ('841', '11', '4', '2011-09-02', '10', '8320');
-
-
-=======
-	
-	
->>>>>>> origin/master
 
