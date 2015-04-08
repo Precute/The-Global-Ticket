@@ -166,8 +166,22 @@ UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Ldehaan' WHERE `emp
 UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Ahunold' WHERE `employeeID`='116';
 UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Bernst' WHERE `employeeID`='117';
 UPDATE `arpalikh`.`global_employeeaccount` SET `empSurname`='Daustin' WHERE `employeeID`='118';
- 
- INSERT INTO global_customeraccount VALUES 
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='CEO', `managerID`=NULL WHERE `employeeID`='111';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='Payroll Admin ', `managerID`='117' WHERE `employeeID`='120';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='Marketer', `managerID`='112' WHERE `employeeID`='113';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='Marketer', `managerID`='112' WHERE `employeeID`='114';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='IT Programmer', `managerID`='127' WHERE `employeeID`='116';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='IT Programmer', `managerID`='127' WHERE `employeeID`='118';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='HR Manager', `managerID`='111' WHERE `employeeID`='117';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='PR Manager', `managerID`='111' WHERE `employeeID`='112';
+UPDATE `arpalikh`.`global_employeeaccount` SET `managerID`='123' WHERE `employeeID`='115';
+UPDATE `arpalikh`.`global_employeeaccount` SET `managerID`='111' WHERE `employeeID`='127';
+UPDATE `arpalikh`.`global_employeeaccount` SET `empRole`='Sales Manager', `managerID`='111' WHERE `employeeID`='123';
+UPDATE `arpalikh`.`global_employeeaccount` SET `managerID`='123' WHERE `employeeID`='128';
+UPDATE `arpalikh`.`global_employeeaccount` SET `managerID`='111' WHERE `employeeID`='111';
+
+
+INSERT INTO global_customeraccount VALUES 
         ( 20003
         , 'Valli'
         , 'Tabal'
@@ -583,6 +597,37 @@ INSERT INTO global_customeraccount VALUES
         , NULL
         );
         
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20003', 'valli', 'valli', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20004', 'diana', 'diana', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20005', 'nancy', 'nancy', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20006', 'daniel', 'daniel', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20007', 'john', 'john', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20008', 'ismael', 'ismael', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20009', 'jose', 'jose', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20010', 'luis', 'luis', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20012', 'dan', 'dan', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20013', 'alex', 'alex', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20014', 'shelli', 'shelli', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20015', 'sigal', 'sigal', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20016', 'guy', 'guy', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20017', 'karen', 'karen', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20018', 'matt', 'matt', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20019', 'adam', 'adam', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20020', 'payam', 'payam', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20021', 'shanta', 'shanta', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20022', 'kevin', 'kevin', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20023', 'julia', 'julia', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20024', 'irene', 'irene', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20025', 'james', 'james', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20026', 'steven', 'steven', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20027', 'laura', 'laura', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20028', 'mozha', 'mozha', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20029', 'james', 'james', 'customer');
+INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) VALUES ('20030', 'jolson', 'jolson', 'customer');
+
+
+UPDATE `arpalikh`.`global_login` SET `loginUsertype`='admin' WHERE `loginID`='111';
+
 INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`) 
 VALUES ('20003', 'valli', 'valli', 'customer');
 INSERT INTO `arpalikh`.`global_login` (`loginID`, `loginUsername`, `loginPassword`, `loginUsertype`)
@@ -781,6 +826,7 @@ INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`
 INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('12', '4', '100');
 INSERT INTO `arpalikh`.`global_attractionpricelist` (`attractionID`, `tktTypeID`, `ticketPrice`) VALUES ('12', '5', '75');
 
+<<<<<<< HEAD
 INSERT INTO `arpalikh`.`global_bookingdetails` (`bookingDate`, `customerID`) VALUES ('2015-04-06', '20001');
 INSERT INTO `arpalikh`.`global_bookingdetails` (`bookingDate`, `customerID`) VALUES ('2014-07-28', '20014');
 INSERT INTO `arpalikh`.`global_bookingdetails` (`bookingDate`, `customerID`) VALUES ('2010-12-30', '20022');
@@ -825,4 +871,8 @@ INSERT INTO `arpalikh`.`global_ticketonbooking` (`bookingID`, `attractionID`, `t
 INSERT INTO `arpalikh`.`global_ticketonbooking` (`bookingID`, `attractionID`, `tktTypeID`, `ticketDate`, `ticketQty`, `tktTotalCost`) VALUES ('841', '11', '4', '2011-09-02', '10', '8320');
 
 
+=======
+	
+	
+>>>>>>> origin/master
 
